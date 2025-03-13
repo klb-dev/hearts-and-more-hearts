@@ -1,6 +1,7 @@
-# Ton's of hearts
+# Tons of Hearts
 
 ![Display of Tons of Hearts](images/screenShot-Game.png)
+Tons of Hearts website: (https://klb-dev.github.io/hearts-and-more-hearts/)[Tons of Hearts]
 
 ## Project
 Created a Match 3 game. You have x amount of moves and try to generate the most points. If no moves are left you can reshuffle the board if you still have moves. Created with different color heart to add thought process in matching the tiles. 
