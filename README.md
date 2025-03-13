@@ -20,4 +20,4 @@ I am proud of the game as it is my first JS game.
 <br>
 klbdev88@gmail.com
 <br><br>
-![Blue Byrd Development Logo](images\blueByrdDevelopmentLogo.png)
+![Blue Byrd Development Logo](images/blueByrdDevelopmentLogo.png)
