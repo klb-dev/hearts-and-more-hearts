@@ -42,6 +42,12 @@ button {
     cursor: pointer;
 }
 
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+
 .game-container {
     display: flex;
     flex-direction: column;
@@ -88,7 +94,11 @@ button {
     border-radius: 8px;
     cursor: pointer;
     background: #8ecae6;
-    transition: background 0.3s;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.cell .hidden {
+    opacity: 0;
 }
 
 
