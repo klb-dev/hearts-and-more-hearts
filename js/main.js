@@ -173,9 +173,15 @@ function dropTiles() {
 }
 
 function updateScore(points) {
-    score += points * 20;
+    let basePoints = points * 20;
+    if (points === 4) {
+        basePoints += 20; 
+    } else if (points >= 5) {
+        basePoints += 50; 
+    }
+    score += basePoints;
     scoreDisplay.textContent = `${score}`;
-}
+};
 
 function updateMoves() {
     moves--;

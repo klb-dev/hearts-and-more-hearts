@@ -5,8 +5,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #f0f0f0;
+    font-family: 'Chakra Petch', sans-serif;
+    background-image: url('../images/colorful-hearts.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,16 +17,26 @@ body {
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
+    font-size: 4rem;
+    color: #023047;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2rem;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #023047;
 }
 
 button {
     margin-top: 2em;
     padding: 10px 20px;
     font-size: 1.25rem;
-    background: #f7a205;
-    color: #fff;
+    background: #ffb703;
+    color: #023047;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -35,6 +47,10 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #023047;
+    padding: 2em;
+    border-radius: 10px;
+    color: #222;
 }
 
 .text-container {
@@ -43,6 +59,9 @@ button {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
+    background: #8ecae6;
+    border-radius: 10px;
+    padding: 1.5em;
 }
 
 .board {
@@ -50,13 +69,13 @@ button {
     grid-template-columns: repeat(8, 60px);
     grid-template-rows: repeat(8, 60px);
     gap: 5px;
-    background: #0000ff;
+    background: #219ebc;
     padding: 1em;
     border-radius: 10px;
 }
 
 .selected {
-    border: 4px solid #f7a205;
+    border: 4px solid #fb8500;
 }
 
 .cell {
@@ -68,7 +87,7 @@ button {
     align-items: center;
     border-radius: 8px;
     cursor: pointer;
-    background: #03f1f9;
+    background: #8ecae6;
     transition: background 0.3s;
 }
 
